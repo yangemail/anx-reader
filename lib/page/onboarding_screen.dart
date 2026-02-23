@@ -290,7 +290,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 6,
+              crossAxisCount: 12, // YZ: update to 12 columns
               mainAxisSpacing: 8,
               crossAxisSpacing: 8,
               childAspectRatio: 1,

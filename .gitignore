@@ -71,3 +71,11 @@ google_service_account.json
 # FVM Version Cache
 .fvm/
 .fvmrc
+
+# 忽略 Flutter 自动生成的插件注册文件
+linux/flutter/generated_*
+windows/flutter/generated_*
+macos/flutter/generated_*
+ios/flutter/generated_*
+android/flutter/generated_*
+macos/Flutter/GeneratedPluginRegistrant.swift
